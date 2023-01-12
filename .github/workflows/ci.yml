@@ -34,7 +34,7 @@ jobs:
 
     - name: Set image tag as env
       run: |
-        VERSION=18
+        VERSION=18sip
         echo "IMAGE=cuzfrog/oracle-xe:$VERSION" >> $GITHUB_ENV
 
     - name: Login to DockerHub
